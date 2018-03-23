@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "applicationType": "uaa",
+    "gitHubOrganization": "hamdiboss",
+    "baseName": "jhipsterDemoApplication",
+    "packageName": "org.devup",
+    "serverPort": 9999,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../JhipDEMO",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.14.1",
+    "packageFolder": "org/devup",
+    "jwtSecretKey": "b81e2c444ef081839414d58d42c75d5e310f5268",
+    "jhiPrefix": "jhi",
+    "skipClient": true
+  }
+}
